@@ -44,7 +44,6 @@ const ProjectsSection = () => {
           isOpen={!!selectedProject}
           onClose={() => setSelectedProject(null)}
           title={selectedProject.title}
-          role={selectedProject.role}
           description={selectedProject.description}
           tools={selectedProject.tools}
           slides={selectedProject.slides}
