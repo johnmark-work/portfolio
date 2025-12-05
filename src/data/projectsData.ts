@@ -1,0 +1,65 @@
+export const projectsData = [
+    {
+      id: 1,
+      title: "Project Manager",
+      role: "Project Manager",
+      description: "Managed a project using Kanban board for task tracking, Mermaid chart for user flows, and Excel for documenting user stories.",
+      tools: ["Kanban Board", "Mermaid Chart" ,"Microsoft Excel"],
+      image: "/assets/projects/project-manager.webp",
+      slides: [
+        "/assets/projects/pm/user-stories.webp",
+        "/assets/projects/pm/client-flow.webp",
+        "/assets/projects/pm/kanban-board.webp",
+      ],
+    },
+    {
+      id: 2,
+      title: "UI/UX Designer",
+      role: "UI/UX Designer",
+      description: "Designed user interfaces, wireframes, and prototypes using Figma, Google Fonts, Lucide Icons, and images to create appealing layouts.",
+      tools: ["Figma", "Google Fonts" , "Lucide Icons", "Images"],
+      image: "/assets/projects/uiux-designer.webp",
+      slides: [
+        "/assets/projects/uiux/prototype.webp",
+        "/assets/projects/uiux/design.webp",
+        "/assets/projects/uiux/wireframe.webp",
+      ],
+    },
+    {
+      id: 3,
+      title: "Frontend Developer",
+      role: "Frontend Developer",
+      description: "Developed the web app using Next.js for interface and routing, TypeScript to reduce coding errors, and Tailwind CSS for responsive design.",
+      tools: ["Next.js", "TypeScript", "Tailwind CSS"],
+      image: "/assets/projects/frontend-dev.webp",
+      slides: [
+        "/assets/projects/fe/user-side.webp",
+        "/assets/projects/fe/manager-side.webp",
+      ],
+    },
+    {
+      id: 4,
+      title: "Backend Developer",
+      role: "Backend Developer",
+      description: "Built the backend using Node.js for server-side logic, Next.js API Routes for handling requests, SQLite for database management, and Swagger for API documentation.",
+      tools: ["Node.js", "Next.js API Routes", "SQLite", "Swagger Docs"],
+      image: "/assets/projects/backend-dev.webp",
+      slides: [
+        "/assets/projects/be/swagger-docs.webp",
+        "/assets/projects/be/table.webp",
+      ],
+    },
+    {
+      id: 5,
+      title: "Quality Analyst",
+      role: "Quality Analyst",
+      description: "Created test cases, performed user acceptance testing with Developer Tools and Postman, and documented test results in Excel and Word.",
+      tools: ["Developer Tools", "Postman" , "Microsoft Word" , "Microsoft Excel"],
+      image: "/assets/projects/quality-analyst.webp",
+      slides: [
+        "/assets/projects/qa/test-case.webp",
+        "/assets/projects/qa/uat.webp",
+        "/assets/projects/qa/test-results.webp",
+      ],
+    },
+  ];  
